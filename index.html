@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Google Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://www.google.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="container flex main">
+            <div class="section-1">
+                <img src="Assets/asset 1.svg" alt="google-logo">
+                <h1>Create your Google Account</h1>
+                <h4>to continue to Gmail</h4>
+                <form action="">
+                    <div class="flex input-name">
+                        <input class="input-boxes" type="text" name="first-name" id="first-name" placeholder="First name" required>
+                        <input class="input-boxes" type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                    </div>
+                    <div class="user">
+                        <input class="username" type="email" name="user" id="user" placeholder="Username" required>
+                        <p>@gmail.com</p>
+                    </div>
+                    <p class="under-text">You can use letters, numbers & periods</p>
+                    <div class="flex input-pass">
+                        <input class="input-boxes" type="password" name="password" id="password" placeholder="Password" required>
+                        <input class="input-boxes" type="text" name="confirm" id="confirm" placeholder="Confirm">
+                    </div>
+                    <p class="under-text">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                    <div class="flex show-password">
+                        <input class="checkbx" type="checkbox" name="show-pswd-check" id="show-pswd">
+                        <span class="custom-checkbox"></span>
+                        <label for="show-pswd">Show password</label>    
+                    </div>
+                    <div class="buttons flex">
+                        <a href="#">Sign in instead</a>
+                        <input type="submit" name="submit" id="submit" value="Next">
+                    </div>
+                </form>
+            </div>
+            <div class="section-2">
+                <img src="Assets/account.svg" alt="account-image">
+                <p>One account. All of Google working for you.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container flex footer">
+            <div class="lang-selector">
+                <select name="lang" id="lang">
+                    <option value="eng">Afrikaans</option>
+                    <option value="eng">Deustch</option>
+                    <option value="eng" selected>English (United States)</option>
+                    <option value="eng">Hindi</option>
+                    <option value="eng">Marathi</option>
+                    <option value="eng">Telugu</option>
+                </select>
+            </div>
+            <div class="other-links flex">
+                <a href="">Help</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
